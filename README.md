@@ -1,4 +1,4 @@
-<h1 align="center"Score Tracker App</h1>
+<h1 align="center"Score Tracker App></h1>
 
 <details>
 <summary>Deutsch</summary>
