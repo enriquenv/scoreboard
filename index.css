@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+  }
+  
+* {
+    font-family: 'MyFont', sans-serif;
+  }
+
+body {
+    margin: 0;
+    background-color: #065F46
+    ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container>div {
+    padding: 0 55px;
+}
+
+h1 {
+    color: #F59E0B;
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+    text-align: center;
+    color: #C4B5FD
+    ;
+
+}
+
+.new {
+    color: #F43F5E;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+}
+
+.addscore {
+    margin: 10px 0;
+}
+
+#homescore, #guestscore {
+    height: 60px;
+    font-size: xx-large;
+    color: #D1D5DB;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blink {
+    animation: blinker 1s linear 3;
+   }
+   
+   @keyframes blinker {
+    50% {
+    background-color: #FCD34D;
+    }
+   }
+
+@media only screen and (max-width: 445px) {
+    h1 {
+        font-size: 3em;
+    }
+    .container>div {
+        padding: 0 10px;
+    }
+  }
+
+  @media only screen and (max-width: 312px) {
+    h1 {
+        font-size: 2em;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .addscore{
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 217px) {
+    h1 {
+        font-size: 1.5em;
+    }
+  }
+
+  @media only screen and (max-width: 150px) {
+    h1 {
+        font-size: 1em;
+    }
+  }
