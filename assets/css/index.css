@@ -9,13 +9,20 @@
 
 body {
     margin: 0;
-    background-color: #065F46
-    ;
+    background-color: #065F46;
+    background-image: url("../img/marius-christensen-_Ghzg0xvHW0-unsplash.jpg");
+    background-size: cover;
+    background-position: 55% 30%;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    text-align: center;
+    max-width: max-content;
+    margin: auto;
+    background: rgba(166, 148, 75, 0.8);
+    border-radius: 5px;
 }
 
 .container>div {
@@ -36,10 +43,17 @@ h2 {
 }
 
 .new {
-    color: #F43F5E;
+    color: whitesmoke;
     text-align: center;
     font-size: large;
     cursor: pointer;
+    max-width: max-content;
+    margin: auto;
+    background: rgba(6, 6, 6, 0.8);
+}
+
+.new:hover {
+    color: #F59E0B;
 }
 
 .addscore {
